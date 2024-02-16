@@ -1,4 +1,5 @@
 package com.example.recycleradapter
 
-class RecyclerClickInterface {
+interface RecyclerClickInterface {
+    fun onItemClick()
 }
